@@ -1,34 +1,10 @@
-function cssAndDesc() {
-    const style = `
-    .chords {
-        width: 300px;
-        height: 200px;
-        border: 1px dotted;
-        padding: 10px;
-    }
-
-    .nameSong {
-        text-decoration: underline;
-    }
-
-    .divWordsChords {
-        display: inline-block;
-        margin: 5px 5px 0px 0px;
-    }`;
-
-    const description = 'Script for displaying chords on the lyrics <a href="">iiii</a>';
-
-    addCssAndDescription(style, description);
-}
-cssAndDesc();
-
 function visualization_of_chords() {
     const song = {
         name: 'Скрябін - Мовчати',
         words: ['Давай виключим світло і', 'будем', 'мовчати', 'Про то, шо не можна', 'словами', 'сказати', 'Не можна писати,', 'неможливо', 'зіграти,', 'А тільки мовчати', 'тихенько', 'мовчати.'],
         chords: ['Am', 'G', 'Dm', 'F', 'Em', 'Am', 'Am', 'G', 'Dm', 'F', 'Em', 'Am']
     }
-
+    const searchBody = document.querySelector(".col__article");
     const createDivChords = document.createElement("div");
     createDivChords.setAttribute("class", 'chords');
     searchBody.append(createDivChords);
@@ -48,11 +24,33 @@ function visualization_of_chords() {
         createDiv(p, 'divWordsChords');
     }
 }
+
+
+///////////////////////////////// optional part ///////////////////////////////////////////
+function cssAndDesc() {
+    const style = `
+    .chords {
+        width: 300px;
+        height: 200px;
+        border: 1px dotted;
+        padding: 10px;
+    }
+
+    .nameSong {
+        text-decoration: underline;
+    }
+
+    .divWordsChords {
+        display: inline-block;
+        margin: 5px 5px 0px 0px;
+    }`;
+
+    const description = 'Script for displaying chords on the lyrics <a href="">https://github.com/korobkadv/JS-Mini-Scripts/blob/main/scripts/visualization_of_chords.js</a>';
+
+    addCssAndDescription(style, description);
+}
+cssAndDesc();
 visualization_of_chords();
-
-
-
-
 
 
 

@@ -34,9 +34,10 @@ function handleNavClick(event) {
     startScript(nameScript);
 }
 
-const searchBody = document.querySelector(".col__article");
+
 
 function startScript(nameScript) {
+    const searchBody = document.querySelector(".col__article");
     searchBody.innerHTML = '';
 
     const searchScript = document.querySelector(".script");
@@ -63,7 +64,7 @@ function addCssAndDescription(style, description) {
     createCssBlock.innerHTML = style;
     document.body.append(createCssBlock);
 
-
+    const searchBody = document.querySelector(".col__article");
     const createDiv = document.createElement("div");
     createDiv.setAttribute("class", "q");
     createDiv.innerHTML = description;

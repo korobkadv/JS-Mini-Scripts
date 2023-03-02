@@ -1,5 +1,5 @@
 function home() {
-
+    const searchBody = document.querySelector(".col__article");
     searchBody.innerHTML = '';
 
     const style = ``;
