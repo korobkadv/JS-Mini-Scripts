@@ -1,5 +1,6 @@
 const links = [
-    { link: "visualization_of_chords", text: "Visualization of chords" }
+    { link: "visualization_of_chords", text: "Visualization of chords" },
+    { link: "entered_text_is_displayed_immediately", text: "Entered text is displayed immediately" }
 ];
 
 const searchAside = document.querySelector(".col__aside");

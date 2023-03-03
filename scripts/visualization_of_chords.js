@@ -45,7 +45,7 @@ function cssAndDesc() {
         margin: 5px 5px 0px 0px;
     }`;
 
-    const description = 'Script for displaying chords on the lyrics <a href="">https://github.com/korobkadv/JS-Mini-Scripts/blob/main/scripts/visualization_of_chords.js</a>';
+    const description = 'Script for displaying chords on the lyrics. <a href="https://codepen.io/korobka_dv/pen/ZEjVrLr" target=_blanc>https://codepen.io/korobka_dv/pen/ZEjVrLr</a>';
 
     addCssAndDescription(style, description);
 }
