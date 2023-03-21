@@ -1,4 +1,5 @@
 const links = [
+    { link: "alarm_clock", text: "Alarm clock" },
     { link: "visualization_of_chords", text: "Visualization of chords" },
     { link: "entered_text_is_displayed_immediately", text: "Entered text is displayed immediately" }
 ];
