@@ -210,7 +210,7 @@ function cssAndDesc() {
 
  `;
 
-    const description = 'The simplest alarm clock script <a href="" target=_blanc></a>';
+    const description = 'The simplest alarm clock script <a href="https://codepen.io/korobka_dv/pen/xxaydJP" target=_blanc>https://codepen.io/korobka_dv/pen/xxaydJP</a>';
 
     addCssAndDescription(style, description);
 }
